@@ -16,7 +16,7 @@ class App {
         this.expApp = express();
         App.app = this;
         this.axiosInstance = axios_1.default.create({
-            baseURL: `${this.mainAppConfig.host}:${this.mainAppConfig.port}/`,
+            baseURL: `${this.mainAppConfig.host}:${this.mainAppConfig.port}/speed_test_service/`,
             timeout: 10000,
         });
     }
@@ -50,7 +50,7 @@ class App {
     setToken() {
         this.axiosInstance({
             method: 'post',
-            url: `/speed_test_service/get_token?key=${this.config.appKey}`
+            url: `/get_token?key=${this.config.appKey}`
         })
             .then((result) => {
             this.token = result.data.token;
