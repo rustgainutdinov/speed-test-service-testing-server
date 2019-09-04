@@ -13,14 +13,13 @@ class PageSpeedTest {
             method: 'GET',
             json: true,
             encoding: null,
-            uri: `${pageSpeedInsightsLink_1.default}url=http://www.${url}/&strategy=${mode}`
+            uri: `${pageSpeedInsightsLink_1.default}url=http://www.${url}&strategy=${mode}`
         };
         request(options)
             .then(function (results) {
-            let result = { url, mode };
+            let result = { url, mode, performance: results.lighthouseResult.categories.performance.score };
             AuditsIndicators_1.default.forEach((item) => {
-                console.log(item, item.replace(/-/gi, '_'));
-                result[item.replace(/-/gi, '_')] = results.lighthouseResult.categories[item].score;
+                result[item.replace(/-/gi, '_')] = results.lighthouseResult.audits[item].score;
             });
             cb(result);
         })
