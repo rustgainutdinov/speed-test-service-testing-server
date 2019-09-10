@@ -8,5 +8,5 @@ try {
     app.run();
 }
 catch (e) {
-    console.error(e.message);
+    console.error(e.message)    ;
 }
