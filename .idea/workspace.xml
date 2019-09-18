@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88f6cdf-6593-433e-af19-eba675c15cbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/queries_data/21b3db23-7d8f-4f14-9c80-f2790521c098.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries_data/9b470b41-7f1d-4362-9997-69657b8ea726.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries_data/e38b5058-ae35-4894-8307-21f4f67e06c0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queries_data/e402a7f7-ae5a-469c-9496-0b72ea2c433e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries_data/urls_list.json" beforeDir="false" afterPath="$PROJECT_DIR$/queries_data/urls_list.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,15 +29,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>console.log</find>
-      <find>lighthouseResult</find>
-      <find>first-contentful-paint</find>
-      <find>categories</find>
-      <find>per</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,7 +39,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/queries_data" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
@@ -49,12 +51,13 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/core" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rustam.gainutdinov\Documents\projects\speed-test-servive\testing-backend\queries_data" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -117,7 +120,7 @@
       <workItem from="1567605324742" duration="1888000" />
       <workItem from="1567607910179" duration="1889000" />
       <workItem from="1567611009240" duration="749000" />
-      <workItem from="1567612574179" duration="16672000" />
+      <workItem from="1567612574179" duration="39865000" />
     </task>
     <servers />
   </component>

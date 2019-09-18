@@ -18,6 +18,9 @@ class App {
         this.axiosInstance = axios_1.default.create({
             baseURL: `${this.mainAppConfig.host}:${this.mainAppConfig.port}/speed_test_service/`,
             timeout: 10000,
+            headers: {
+                'Accept': 'application/json',
+            }
         });
     }
     static getInstance() {
