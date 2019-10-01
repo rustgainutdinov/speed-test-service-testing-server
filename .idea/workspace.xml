@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e88f6cdf-6593-433e-af19-eba675c15cbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config/mainAppConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config/mainAppConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/routes/PageSpeedTestRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/routes/PageSpeedTestRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/mainAppConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mainAppConfig.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/PageSpeedTestRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/PageSpeedTestRoute.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
