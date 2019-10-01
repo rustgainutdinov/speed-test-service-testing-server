@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e88f6cdf-6593-433e-af19-eba675c15cbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/config/mainAppConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config/mainAppConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/controllers/PageSpeedTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/routes/PageSpeedTestRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/routes/PageSpeedTestRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/mainAppConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mainAppConfig.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/PageSpeedTest.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/PageSpeedTestRoute.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/PageSpeedTestRoute.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +48,13 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rustam.gainutdinov\Documents\projects\speed-test-servive\testing-backend\queries_data" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,6 +119,7 @@
       <workItem from="1567611009240" duration="749000" />
       <workItem from="1567612574179" duration="42071000" />
       <workItem from="1568915936787" duration="1198000" />
+      <workItem from="1569331157609" duration="7707000" />
     </task>
     <servers />
   </component>

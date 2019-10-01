@@ -57,7 +57,7 @@ class PageSpeedTest {
     }
     static sendResultsOnMainServer(result, idTest) {
         const app = App_1.default.getInstance();
-        app.axiosInstance.post('/add_data', qs.stringify({ result: JSON.stringify(result) }), {
+        app.axiosInstance.post('/save_testing_data', qs.stringify({ result: JSON.stringify(result) }), {
             params: {
                 id_test: idTest,
                 token: app.getToken()

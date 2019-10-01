@@ -28,7 +28,7 @@ export default class App {
         App.app = this;
 
         this.axiosInstance = axios.create({
-            baseURL: `${this.mainAppConfig.host}:${this.mainAppConfig.port}/speed_test_service/`,
+            baseURL: `${this.mainAppConfig.host}:${this.mainAppConfig.port}/testing_server/`,
             timeout: 10000,
             headers: {
                 'Accept': 'application/json',
@@ -69,11 +69,11 @@ export default class App {
 
     private setToken() {
         this.axiosInstance({
-            method: 'post',
-            url: `/get_token?key=${this.config.appKey}`
+            method: 'get',
+            url: `/get_token_by_app_key?key=${this.config.appKey}`
         })
             .then((result: any) => {
-                this.token = result.data.token;
+                this.token = result.data;
                 console.log(this.token);
             })
             .catch((e: Error) => {

@@ -44,8 +44,6 @@ export default class PageSpeedTest {
                 fs.appendFileSync(`${testsDataDirectoryPath + idTest}.json`, JSON.stringify(result) + ',');
             })
         }
-
-
         setTimeout(() => {
             fs.appendFileSync(`${testsDataDirectoryPath + idTest}.json`, '{}]');
             const result: Buffer = fs.readFileSync(`${testsDataDirectoryPath + idTest}.json`);
@@ -63,7 +61,7 @@ export default class PageSpeedTest {
 
     private static sendResultsOnMainServer(result: Array<object>, idTest: string) {
         const app: App = App.getInstance();
-        app.axiosInstance.post('/add_data', qs.stringify({result: JSON.stringify(result)}), {
+        app.axiosInstance.post('/save_testing_data', qs.stringify({result: JSON.stringify(result)}), {
             params: {
                 id_test: idTest,
                 token: app.getToken()

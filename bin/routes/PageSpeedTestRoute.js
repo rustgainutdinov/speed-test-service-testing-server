@@ -13,7 +13,8 @@ const PageSpeedTestRoute = {
             PageSpeedTest_1.default.checkUrlOnGoogleAnalytics(req.query.url, req.query.mode, (score) => {
                 res.json(score);
             });
-        }).get('/list_of_urls', (req, res, next) => {
+        })
+            .post('/list_of_urls', (req, res, next) => {
             if (validate_1.checkRequired(req, 'query[list_of_urls]', next) ||
                 validate_1.checkRequired(req, 'query[id_test]', next)) {
                 return;
